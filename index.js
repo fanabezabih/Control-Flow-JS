@@ -56,7 +56,7 @@ const users=(votes)=>{
              console.log("Sunday")
              break;
          default:
-             console.log("none")
+             console.log("None")
              break;
      }
  }
@@ -133,6 +133,11 @@ const users=(votes)=>{
      const temprature=[30,15,20,85]
      weather(temprature)
      
+
+
+
+
+     
      
      //7.Users are queued to register. Use a while loop to remove and print each name until the queue is empty.
 
@@ -145,9 +150,16 @@ const users=(votes)=>{
       let queue=["Fana","Hellen","Hewaan"]
       registration(queue)
 
+
+
+
+
+
+
       //8. Students retake a test until they score 50 or more. Use do...while to simulate attempts, increasing the score by 10 each time until it's >= 50.
       const test=()=>{
-
+        
+        let attempt = 1
 
             do {
                 console.log(`attempt ${attempt}: ${score}`)
@@ -160,7 +172,7 @@ const users=(votes)=>{
                 console.log("Student passed the test")
             }
         }
-        let score = 10
-        let attempt = 1
+       
+       let score = 10
         test()
      
