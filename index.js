@@ -90,7 +90,7 @@ const users=(votes)=>{
  
  
     const languages = (greetings) => {
-         for(i=0;i<=greetings.length;i++){
+         for(i=0;i<greetings.length;i++){
          switch (greetings[i]) {
              case "en":
                  console.log("Hello")
@@ -103,7 +103,7 @@ const users=(votes)=>{
                  break;
             
             default:
-             console.log("Hi")
+             console.log("Language does not exist")
              break;
          }}
      }
