@@ -174,5 +174,5 @@ const users=(votes)=>{
         }
        
        let score = 10
-        test(score)
+        test()
      
