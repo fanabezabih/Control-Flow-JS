@@ -157,10 +157,8 @@ const users=(votes)=>{
 
 
       //8. Students retake a test until they score 50 or more. Use do...while to simulate attempts, increasing the score by 10 each time until it's >= 50.
-      const test=(score)=>{
-        
-        let attempt = 1
-
+      const test=()=>{
+    
             do {
                 console.log(`attempt ${attempt}: ${score}`)
                 score += 10
@@ -173,6 +171,7 @@ const users=(votes)=>{
             }
         }
        
-       let score = 10
+        let score = 10
+        let attempt = 1
         test()
      
